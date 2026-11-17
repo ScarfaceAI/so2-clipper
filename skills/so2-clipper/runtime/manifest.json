@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "name": "so2-clipper-runtime",
+  "version": "0.2.0-beta.1",
+  "source": "scripts/*.py and scripts/assets/**",
+  "files": {
+    "assets/feedback-cross.png": "411c6b58fd56de33514875c131277f6b81b5cfc22dca740eb3a7c9885c49bdc1",
+    "assets/feedback-legacy-skull.png": "e3f28c20df60df67f840033cb42a02c53f76f1bccc5f44009e12133f6cd42bae",
+    "assets/feedback-skull.png": "8c00b96778a610429ad7424f2f0d4fc21e4a1703f16416a6b7194b19a4022169",
+    "assets/spectator-eye.png": "c17957798d40292f45f6cb331eef1f14886203bba71ff172aae3eddd59d1b908",
+    "autolayout.py": "669c89cfbf7de9b7e3c36f20895006476ac1addfc83f242a0a8ce4bb0527183f",
+    "config.py": "a41937b5969a0d2129acec998f3382e1ca2e7274b835db16d72addaf9a4eec00",
+    "core.py": "452b5e15f6ce4ecf0e2a37df2f55e336228c7989746b1490d74eacea0ccb7ab0",
+    "delivery.py": "95ec54be308b4137f75b239405c5622c75381c8acdd9b9c51178bb5b59fc923b",
+    "delivery_models.py": "bae980663bb55eb2fa59dccdbfd5e292d95e7c55f49b03fe8ac88b143db32cfb",
+    "evidence.py": "4fb28a2a4906c49f8a2aea22f4838b292df0dd1eb25d53db9196708ce363e4c7",
+    "extraction.py": "8a7fe8a64e9d82c9f2d4dffe9c5880126f7a7b635702f7f56cfac50079c61061",
+    "kill_clipper.py": "132bbce4346e9d8f6a40606d6ab8578e12adc30f80c54e16b8ee97ae7a063120",
+    "media.py": "25fd806f08ef7b2498232bd0006dddac469ad7368703a33d2549242028cf6c48",
+    "montage.py": "1dd5138e5d624f959e6bcc75bdeee90c2923bf5ed40b0fe647cf924c1c0d735c",
+    "options.py": "eceac4bbb90c4f650207ea04896d29da7d879d987825281ec44d4aa7b4bbfb24",
+    "organize_output.py": "6f7eb4da850829f30cd67ce6f9c027ec33987810ce1447561b6401460233e4b8",
+    "perspective.py": "416f72e93ea927935d9d3d824d7e7893a3b1d08d3ef0a92d2a314da98d776ae1",
+    "reporting.py": "2e7d129433c3978768a2f0435de794d2b72073b7f0235deafc2ce9b6303b71e9",
+    "review.py": "3db60858047cf07473233cae61f7421416d35d2242e1ffe29fa1a5ad5c94b73f",
+    "spectator.py": "3d69f0f784632c144381ce20e18c3330c1e5731d8225f255d9fb94cded787b86",
+    "store.py": "4800399bd591e7a4cdd43dbe8e784b8fe5f4751e0ec4323752badf681f95115c",
+    "visual_attribution.py": "a7480533b11e7fce8f9680f3ac442ad504d472962c0a89827f03fc35953e6130",
+    "visual_feed.py": "c78f56a1965849e233e49050c164fdc7589bb1ac2fb45affd0bd4f4c95b54d78",
+    "warmup.py": "e63b90a628d86a5ce25b3da8d198011f1270db3521cdff0733d77bf21ffe7c55",
+    "workspace.py": "796e2c56466cfe152f8264f66de7a68c7699e780043a1857c9db9482e528618f"
+  },
+  "distribution_files": {
+    "LICENSE": "08db6f38f778e4f5d91ef0a37b3c690aa061848b53d03fd4bc9d4193a039083b",
+    "THIRD_PARTY_NOTICES.md": "2cded442e344f130c930f00dc6810371116d5dbc71ebe5bf63a0286de9a61994",
+    "VERSION": "214374e4ab6ceb79d5fa5ff001fe9bbcbea31c3fd8c6bd42d48e7efaf6b2ce9f"
+  }
+}

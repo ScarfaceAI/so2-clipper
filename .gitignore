@@ -1,0 +1,28 @@
+# Local configuration and footage
+settings.local.json
+runtime.json
+preferences.json
+*.mp4
+*.mkv
+*.mov
+*.ts
+*.m2ts
+*.avi
+*.webm
+output/
+state/
+.scratch/
+.trash/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.log
+*.part
+dist/
+node_modules/
+.env
+.env.*
+!.env.example
+# Keep only public identity metadata, never private evaluation answers.
+skills/*/evals/results/

@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="350" viewBox="0 0 1500 350" role="img" aria-labelledby="title desc">
+<title id="title">SO2 clipper local workflow</title>
+<desc id="desc">Local recording, HUD calibration, candidate detection, AI review of source frames for kill attribution and weapon class, export by weapon, and output checks.</desc>
+<rect width="1500" height="350" rx="24" fill="#10151b"/>
+<text x="36" y="52" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="27" font-weight="700">LOCAL CLIP WORKFLOW</text>
+<text x="36" y="82" fill="#9aa8b3" font-family="Arial, sans-serif" font-size="15">AI reviews source frames for each kill, same-round range, and weapon class.</text>
+<rect x="33" y="116" width="205" height="124" rx="15" fill="#171e26" stroke="#53616d" stroke-width="2"/>
+<circle cx="61" cy="144" r="14" fill="#53616d"/>
+<text x="61" y="149" text-anchor="middle" fill="#10151b" font-family="Arial, sans-serif" font-size="14" font-weight="700">1</text>
+<text x="51" y="185" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">Local</text>
+<text x="51" y="210" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">recording</text>
+<path d="M 245 178 H 260" stroke="#48d9df" stroke-width="3"/>
+<path d="M 253 172 L 260 178 L 253 184" fill="none" stroke="#48d9df" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="269" y="116" width="205" height="124" rx="15" fill="#171e26" stroke="#53616d" stroke-width="2"/>
+<circle cx="297" cy="144" r="14" fill="#53616d"/>
+<text x="297" y="149" text-anchor="middle" fill="#10151b" font-family="Arial, sans-serif" font-size="14" font-weight="700">2</text>
+<text x="287" y="185" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">Calibrate</text>
+<text x="287" y="210" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">HUD</text>
+<path d="M 481 178 H 496" stroke="#48d9df" stroke-width="3"/>
+<path d="M 489 172 L 496 178 L 489 184" fill="none" stroke="#48d9df" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="505" y="116" width="205" height="124" rx="15" fill="#171e26" stroke="#48d9df" stroke-width="2"/>
+<circle cx="533" cy="144" r="14" fill="#48d9df"/>
+<text x="533" y="149" text-anchor="middle" fill="#10151b" font-family="Arial, sans-serif" font-size="14" font-weight="700">3</text>
+<text x="523" y="185" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">Detect</text>
+<text x="523" y="210" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">candidates</text>
+<path d="M 717 178 H 732" stroke="#48d9df" stroke-width="3"/>
+<path d="M 725 172 L 732 178 L 725 184" fill="none" stroke="#48d9df" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="741" y="116" width="205" height="124" rx="15" fill="#171e26" stroke="#ed514b" stroke-width="2"/>
+<circle cx="769" cy="144" r="14" fill="#ed514b"/>
+<text x="769" y="149" text-anchor="middle" fill="#10151b" font-family="Arial, sans-serif" font-size="14" font-weight="700">4</text>
+<text x="759" y="185" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">AI source</text>
+<text x="759" y="210" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">review</text>
+<path d="M 953 178 H 968" stroke="#48d9df" stroke-width="3"/>
+<path d="M 961 172 L 968 178 L 961 184" fill="none" stroke="#48d9df" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="977" y="116" width="205" height="124" rx="15" fill="#171e26" stroke="#53616d" stroke-width="2"/>
+<circle cx="1005" cy="144" r="14" fill="#53616d"/>
+<text x="1005" y="149" text-anchor="middle" fill="#10151b" font-family="Arial, sans-serif" font-size="14" font-weight="700">5</text>
+<text x="995" y="185" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">Export by</text>
+<text x="995" y="210" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">weapon</text>
+<path d="M 1189 178 H 1204" stroke="#48d9df" stroke-width="3"/>
+<path d="M 1197 172 L 1204 178 L 1197 184" fill="none" stroke="#48d9df" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="1213" y="116" width="205" height="124" rx="15" fill="#171e26" stroke="#53616d" stroke-width="2"/>
+<circle cx="1241" cy="144" r="14" fill="#53616d"/>
+<text x="1241" y="149" text-anchor="middle" fill="#10151b" font-family="Arial, sans-serif" font-size="14" font-weight="700">6</text>
+<text x="1231" y="185" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">Check</text>
+<text x="1231" y="210" fill="#f5f7f8" font-family="Arial, sans-serif" font-size="17" font-weight="700">outputs</text>
+</svg>

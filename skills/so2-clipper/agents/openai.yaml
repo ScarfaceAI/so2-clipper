@@ -1,0 +1,6 @@
+interface:
+  display_name: "so2-clipper"
+  short_description: "提取对峙 2 击杀片段，复核杀数与完整范围，按需分类并修复重复和截断"
+  default_prompt: "使用 $so2-clipper 处理我提供的对峙 2 录像或已有片段，按本批要求复核击杀、完整范围和武器分类；返修优先复用有效缓存，返回交付位置与真实验证状态。"
+policy:
+  allow_implicit_invocation: true

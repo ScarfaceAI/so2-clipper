@@ -1,0 +1,7 @@
+# Archive hashes depend on exact source bytes; prevent checkout line-ending conversion.
+* -text
+* whitespace=blank-at-eol,blank-at-eof,space-before-tab,cr-at-eol
+skills/so2-clipper/LICENSE linguist-generated=true
+skills/so2-clipper/THIRD_PARTY_NOTICES.md linguist-generated=true
+skills/so2-clipper/VERSION linguist-generated=true
+skills/so2-clipper/runtime/** linguist-generated=true
