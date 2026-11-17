@@ -6,6 +6,7 @@ SO2 Clipper is a Windows Skill for AI tools. It combines a local scanner with an
 
 - Windows 10 or 11, x64.
 - Python 3.12 or 3.13. The first-run installer can prepare a suitable user-level environment.
+- FFmpeg and ffprobe 7 or newer; setup downloads a pinned build when they are absent.
 - CPU support; NVIDIA acceleration is used when available and configured.
 - Internet access for initial dependency and model downloads. An existing environment can be checked in offline mode.
 

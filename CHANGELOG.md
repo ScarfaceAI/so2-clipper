@@ -12,6 +12,7 @@ First public beta release.
 - Automatic viewpoint attribution by default, including spectator selection and stable anonymous identities when a name cannot be read but visual attribution remains supported.
 - Warmup filtering, viewpoint and round-boundary handling, incremental scan reuse, resumable review plans, frame evidence, and delivery validation.
 - User-level setup for CPU or available NVIDIA acceleration, with release ZIP installation and Skills CLI installation guidance.
+- Modern FFmpeg filter-file support and Windows regression fixtures that resolve short-path aliases before comparing paths.
 
 ### Boundaries
 

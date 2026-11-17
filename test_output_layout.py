@@ -27,7 +27,7 @@ import workspace
 class OutputLayoutTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(prefix='so2_delivery_')
-        self.root = Path(self.temp.name)
+        self.root = Path(self.temp.name).resolve()
         self.output = self.root / 'output'
         self.input = self.root / 'input'
         self.input.mkdir()

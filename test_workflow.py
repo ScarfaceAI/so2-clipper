@@ -30,7 +30,7 @@ class WorkflowTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.assets = tempfile.TemporaryDirectory(prefix='so2_workflow_assets_')
-        cls.source = Path(cls.assets.name) / 'source.mp4'
+        cls.source = Path(cls.assets.name).resolve() / 'source.mp4'
         subprocess.run(['ffmpeg', '-v', 'error', '-f', 'lavfi', '-i', 'testsrc2=size=320x180:rate=12',
                         '-f', 'lavfi', '-i', 'sine=frequency=440:sample_rate=48000', '-t', '12',
                         '-c:v', 'libx264', '-preset', 'ultrafast', '-c:a', 'aac', str(cls.source)],
@@ -42,7 +42,7 @@ class WorkflowTests(unittest.TestCase):
 
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory(prefix='so2_workflow_')
-        self.root = Path(self.tmp.name)
+        self.root = Path(self.tmp.name).resolve()
         self.inputs = self.root / 'inputs'
         self.inputs.mkdir()
         self.video = self.inputs / 'one.mp4'

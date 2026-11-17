@@ -71,7 +71,7 @@ def merge_clips(files, cfg, previous=None):
         filters.append(labels + f'concat=n={len(pieces)}:v=1:a={int(has_audio)}[v]' + ('[a]' if has_audio else ''))
         graph = work / f'merge_{key[:20]}.ffscript'
         graph.write_text(';'.join(filters), encoding='utf-8')
-        command += ['-filter_complex_script', str(graph), '-map', '[v]']
+        command += ['-/filter_complex', str(graph), '-map', '[v]']
         if has_audio:
             command += ['-map', '[a]', '-c:a', 'aac', '-b:a', '128k']
         command += ['-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-movflags', '+faststart', str(part)]

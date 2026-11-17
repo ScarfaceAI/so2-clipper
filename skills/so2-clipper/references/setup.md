@@ -2,7 +2,7 @@
 
 适用 Windows 10／11 x64，Python 3.12 或 3.13。ZIP 中的 `so2-clipper` 是完整 Skill 目录，包含运行时快照，不需要开发者的项目。把完整目录放入当前 AI 工具的 Skill 搜索目录，例如用户的 `.agents/skills/`。同名目录已存在时先比较版本和来源，不覆盖其他作品。
 
-`scripts/clip.ps1` 是日常入口。默认运行配置在 `%LOCALAPPDATA%/SO2KillClips/runtime.json`。不存在时启动 `setup.ps1`。安装会下载 Python（没有合适版本时）、锁定的依赖、FFmpeg（没有可用 FFmpeg／ffprobe 时）及 EasyOCR 模型。录像不会上传。依赖和模型下载需要网络，可能占用数 GB；已有可用环境与模型直接复用。
+`scripts/clip.ps1` 是日常入口。默认运行配置在 `%LOCALAPPDATA%/SO2KillClips/runtime.json`。不存在时启动 `setup.ps1`。安装会下载 Python（没有合适版本时）、锁定的依赖、FFmpeg（没有可用 FFmpeg／ffprobe 时）及 EasyOCR 模型。已有 FFmpeg／ffprobe 需为 7 或更新版本，才能使用原声集锦的滤镜文件参数。录像不会上传。依赖和模型下载需要网络，可能占用数 GB；已有可用环境与模型直接复用。
 
 ```powershell
 # 全新用户级环境，自动选择 CPU 或可用的 NVIDIA 加速

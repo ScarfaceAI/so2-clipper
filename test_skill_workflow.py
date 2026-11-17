@@ -76,7 +76,7 @@ class SkillDeliveryTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.assets = tempfile.TemporaryDirectory(prefix='so2_skill_assets_')
-        cls.source = Path(cls.assets.name) / 'source.mp4'
+        cls.source = Path(cls.assets.name).resolve() / 'source.mp4'
         subprocess.run(['ffmpeg', '-v', 'error', '-f', 'lavfi', '-i', 'testsrc2=size=320x180:rate=12',
                         '-f', 'lavfi', '-i', 'sine=frequency=440:sample_rate=48000', '-t', '4',
                         '-c:v', 'libx264', '-preset', 'ultrafast', '-c:a', 'aac', str(cls.source)],
@@ -88,7 +88,7 @@ class SkillDeliveryTests(unittest.TestCase):
 
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory(prefix='so2_skill_')
-        self.root = Path(self.tmp.name)
+        self.root = Path(self.tmp.name).resolve()
         self.cfg = config.load_config(['--video', str(self.source), '--profile', 'pc',
                                       '--identity-mode', 'auto', '--output-dir', str(self.root),
                                       '--scan-segments', '1'])

@@ -27,7 +27,7 @@ class DeliveryTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.assets = tempfile.TemporaryDirectory(prefix='so2_delivery_assets_')
-        cls.video = Path(cls.assets.name) / 'source.mp4'
+        cls.video = Path(cls.assets.name).resolve() / 'source.mp4'
         subprocess.run(['ffmpeg', '-v', 'error', '-f', 'lavfi', '-i', 'testsrc2=size=160x90:rate=12',
                         '-f', 'lavfi', '-i', 'sine=frequency=440:sample_rate=48000', '-t', '8',
                         '-c:v', 'libx264', '-preset', 'ultrafast', '-c:a', 'aac', str(cls.video)],
@@ -39,7 +39,7 @@ class DeliveryTests(unittest.TestCase):
 
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(prefix='so2_delivery_')
-        self.root = Path(self.temp.name)
+        self.root = Path(self.temp.name).resolve()
         self.args = ['--video', str(self.video), '--profile', 'pc', '--identity-mode', 'auto',
                      '--output-dir', str(self.root / 'output'), '--state-dir', str(self.root / 'state')]
         self.cfg = media.prepare_cfg(config.load_config(self.args), str(self.video))

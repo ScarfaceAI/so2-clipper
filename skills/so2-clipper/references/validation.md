@@ -4,7 +4,7 @@ This page summarizes public-safe validation evidence available for the v0.2.0-be
 
 ## Automated regression
 
-The complete local pre-publication regression run completed with 91 pre-existing assertions and 165 unit tests passing. These are local project results, not a result from the GitHub Actions workflow for the public repository. Check the [release commit's CI run](https://github.com/ScarfaceAI/so2-clipper/actions/workflows/test.yml) for the status of its own code revision.
+The complete local pre-publication regression run completed with 91 pre-existing assertions and 166 unit tests passing. These are local project results, not a result from the GitHub Actions workflow for the public repository. Check the [release commit's CI run](https://github.com/ScarfaceAI/so2-clipper/actions/workflows/test.yml) for the status of its own code revision.
 
 ## Visual attribution samples
 

@@ -15,7 +15,7 @@ from tools import verify_release
 class PublicReleaseTests(unittest.TestCase):
     def setUp(self):
         self.temp = tempfile.TemporaryDirectory(prefix="so2_public_release_test_")
-        self.root = Path(self.temp.name)
+        self.root = Path(self.temp.name).resolve()
         skill = self.root / "skills/so2-clipper"
         (skill / "scripts").mkdir(parents=True)
         (skill / "SKILL.md").write_text("public skill instructions\n", encoding="utf-8")
